@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Ssas_CorpBD2023</Database>
+    <Server>DW_CORPDBSERVERM\INSTANCE001</Server>
+    <ConnectionString>Data Source=DW_CORPDBSERVERM\INSTANCE001;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>VA3l28p5pueOKn+UduKBCr1alt0=5/17/2023 6:49:10 PM5/17/2023 6:49:10 PM</TimeStamp>
+        <ID>
+          <String>Ds_SsasCorpBD2023</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>hXPWXV5akFSzGlDLpTdeAzcg4os=5/17/2023 6:49:38 PM5/17/2023 6:49:38 PM</TimeStamp>
+        <ID>
+          <String>DsVw_SsasCorpBD2023</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>M3TGTJ9Qv4JCA58QSAjZNWNXKmc=5/17/2023 6:53:33 PM5/17/2023 6:53:33 PM</TimeStamp>
+        <ID>
+          <String>DimCurrency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bzX1FVbtGUOE0F4WHGTxIwwPePU=5/17/2023 6:54:19 PM5/17/2023 6:54:19 PM</TimeStamp>
+        <ID>
+          <String>DimSalesTerritory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4WdjmZuwd4ry/5fZEGASiSHGJSM=5/17/2023 6:54:42 PM5/17/2023 6:54:42 PM</TimeStamp>
+        <ID>
+          <String>DimGeography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AeNgAKe4NcLPc0b+z/xtxlj35ys=5/17/2023 6:55:02 PM5/17/2023 6:55:02 PM</TimeStamp>
+        <ID>
+          <String>DimCustomer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wI5d9XoL6t5bIzbJsJJX0Wov9Ms=5/17/2023 6:55:18 PM5/17/2023 6:55:18 PM</TimeStamp>
+        <ID>
+          <String>DimDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oOcLqox4FdcPnq1bRp50sjzWrgU=5/17/2023 6:55:35 PM5/17/2023 6:55:34 PM</TimeStamp>
+        <ID>
+          <String>DimProduct</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>M1kE644WPwgSNTti6awSo5MmMmk=5/17/2023 6:55:51 PM5/17/2023 6:55:51 PM</TimeStamp>
+        <ID>
+          <String>DimProductCategory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ElPBBrIDttTkaopXybbPMyCIRYo=5/17/2023 6:56:13 PM5/17/2023 6:56:13 PM</TimeStamp>
+        <ID>
+          <String>DimProductSubcategory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8kXJkXGA1kXDGPSJPolcM3a0YuM=5/17/2023 6:56:31 PM5/17/2023 6:56:31 PM</TimeStamp>
+        <ID>
+          <String>DimPromotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b0KEy80FhVR7XORt/DRI/oGNiAc=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PM</TimeStamp>
+        <ID>
+          <String>Fact Internet Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mz5aRn+caNux/CyuweABTUmDfgk=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PMYLyu5uy+txdEzstE4f29gPWAzHA=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PM</TimeStamp>
+        <ID>
+          <String>Cb_SsasCorpBD2023</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>mKWL7Rk7p/K70aRkeYq6ZFVp8SM=5/17/2023 6:21:19 PM5/17/2023 6:21:17 PM</TimeStamp>
+      <ID>
+        <String>Ssas_CorpBD2023</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-18T02:16:44.31Z</LastDeployed>
+</DeploymentSnapshot>
