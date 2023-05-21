@@ -24,20 +24,16 @@
       <FullPath>DimCurrency.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimSalesTerritory.dim</Name>
-      <FullPath>DimSalesTerritory.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DimGeography.dim</Name>
-      <FullPath>DimGeography.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DimCustomer.dim</Name>
       <FullPath>DimCustomer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DimDate.dim</Name>
       <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimGeography.dim</Name>
+      <FullPath>DimGeography.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DimProduct.dim</Name>
@@ -56,8 +52,8 @@
       <FullPath>DimPromotion.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Fact Internet Sales.dim</Name>
-      <FullPath>Fact Internet Sales.dim</FullPath>
+      <Name>DimSalesTerritory.dim</Name>
+      <FullPath>DimSalesTerritory.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

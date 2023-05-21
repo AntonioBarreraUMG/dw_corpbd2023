@@ -16,16 +16,13 @@
         <ID>DimCurrency</ID>
       </Dimension>
       <Dimension>
-        <ID>DimSalesTerritory</ID>
-      </Dimension>
-      <Dimension>
-        <ID>DimGeography</ID>
-      </Dimension>
-      <Dimension>
         <ID>DimCustomer</ID>
       </Dimension>
       <Dimension>
         <ID>DimDate</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimGeography</ID>
       </Dimension>
       <Dimension>
         <ID>DimProduct</ID>
@@ -40,7 +37,7 @@
         <ID>DimPromotion</ID>
       </Dimension>
       <Dimension>
-        <ID>Fact Internet Sales</ID>
+        <ID>DimSalesTerritory</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

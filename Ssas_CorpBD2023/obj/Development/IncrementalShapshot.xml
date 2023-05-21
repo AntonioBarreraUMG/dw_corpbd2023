@@ -33,77 +33,70 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>M3TGTJ9Qv4JCA58QSAjZNWNXKmc=5/17/2023 6:53:33 PM5/17/2023 6:53:33 PM</TimeStamp>
+        <TimeStamp>rbY4lttS6EbiXaxQc9+RowvJN0U=5/20/2023 7:28:42 PM5/20/2023 7:28:42 PM</TimeStamp>
         <ID>
           <String>DimCurrency</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>bzX1FVbtGUOE0F4WHGTxIwwPePU=5/17/2023 6:54:19 PM5/17/2023 6:54:19 PM</TimeStamp>
-        <ID>
-          <String>DimSalesTerritory</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>4WdjmZuwd4ry/5fZEGASiSHGJSM=5/17/2023 6:54:42 PM5/17/2023 6:54:42 PM</TimeStamp>
-        <ID>
-          <String>DimGeography</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>AeNgAKe4NcLPc0b+z/xtxlj35ys=5/17/2023 6:55:02 PM5/17/2023 6:55:02 PM</TimeStamp>
+        <TimeStamp>68THbcn+Q0qayvVX3GU5yBXiDwE=5/20/2023 7:50:02 PM5/20/2023 7:50:02 PM</TimeStamp>
         <ID>
           <String>DimCustomer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wI5d9XoL6t5bIzbJsJJX0Wov9Ms=5/17/2023 6:55:18 PM5/17/2023 6:55:18 PM</TimeStamp>
+        <TimeStamp>evrrinisHOqgHBmEVtETxaVwwcI=5/20/2023 8:05:22 PM5/20/2023 8:05:21 PM</TimeStamp>
         <ID>
           <String>DimDate</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oOcLqox4FdcPnq1bRp50sjzWrgU=5/17/2023 6:55:35 PM5/17/2023 6:55:34 PM</TimeStamp>
+        <TimeStamp>pAr+0X/ksd23hxcwglzaGAyVz5A=5/20/2023 8:08:21 PM5/20/2023 8:08:21 PM</TimeStamp>
+        <ID>
+          <String>DimGeography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZditM0O2XxOXWNJzUYgmg5HnTWw=5/20/2023 8:15:19 PM5/20/2023 8:15:19 PM</TimeStamp>
         <ID>
           <String>DimProduct</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>M1kE644WPwgSNTti6awSo5MmMmk=5/17/2023 6:55:51 PM5/17/2023 6:55:51 PM</TimeStamp>
+        <TimeStamp>wru8XBzXbVT6OTRvyzTRbb0Dvck=5/20/2023 8:16:00 PM5/20/2023 8:16:00 PM</TimeStamp>
         <ID>
           <String>DimProductCategory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ElPBBrIDttTkaopXybbPMyCIRYo=5/17/2023 6:56:13 PM5/17/2023 6:56:13 PM</TimeStamp>
+        <TimeStamp>OQiSQmjRL8Qij74Q3qsSkpDLU1I=5/20/2023 8:16:48 PM5/20/2023 8:16:48 PM</TimeStamp>
         <ID>
           <String>DimProductSubcategory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>8kXJkXGA1kXDGPSJPolcM3a0YuM=5/17/2023 6:56:31 PM5/17/2023 6:56:31 PM</TimeStamp>
+        <TimeStamp>Ziffd9KoXK4YoMkytJJXPNzIwNk=5/20/2023 8:17:42 PM5/20/2023 8:17:42 PM</TimeStamp>
         <ID>
           <String>DimPromotion</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>b0KEy80FhVR7XORt/DRI/oGNiAc=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PM</TimeStamp>
+        <TimeStamp>JzfK263x/64RrsTyetqV28I9tiM=5/20/2023 8:18:44 PM5/20/2023 8:18:44 PM</TimeStamp>
         <ID>
-          <String>Fact Internet Sales</String>
+          <String>DimSalesTerritory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>mz5aRn+caNux/CyuweABTUmDfgk=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PMYLyu5uy+txdEzstE4f29gPWAzHA=5/17/2023 6:57:07 PM5/17/2023 6:57:07 PM</TimeStamp>
+        <TimeStamp>YZIFVC2WTmFhGbiXgHEh+V3ccAM=5/20/2023 8:22:08 PM5/20/2023 8:22:07 PMOKCVAbwN8+JPM+iU8krj6HTyOIs=5/20/2023 8:22:08 PM5/20/2023 8:22:07 PM</TimeStamp>
         <ID>
           <String>Cb_SsasCorpBD2023</String>
         </ID>
@@ -120,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-05-18T02:16:44.31Z</LastDeployed>
+  <LastDeployed>2023-05-21T03:23:20Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a74ea48e-dfc6-48d3-83b2-fea22e2e39ad" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dc32bc20-491a-4eb3-aa98-47765550b937" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimProductSubcategory</ID>
   <Name>DimProductSubcategory</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,49 +42,50 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3da8392b-cf9b-482f-81d1-aaae3ed59ce2">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0ada1f89-911a-4b36-bd56-aae6db408000">
     <DataSourceViewID>DsVw_SsasCorpBD2023</DataSourceViewID>
   </Source>
+  <Type>Products</Type>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="d4ce7096-0628-4a82-be37-8ea656ca151d">
+  <ErrorConfiguration dwd:design-time-name="f111c65a-b5f0-46f5-ad11-3ef5d365ec11">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="b5559d23-5c30-4369-ba32-cd40cffc950a">
+    <Attribute dwd:design-time-name="6eeb6161-843e-4b62-8155-4fa0e4202d3a">
       <ID>Product Subcategory Key</ID>
       <Name>Product Subcategory Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="060fc65b-b4c8-4345-8c3a-226ce332a171">
+        <KeyColumn dwd:design-time-name="574a0bda-332d-44a8-ac76-3eab0dba91d3">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="78d0dfe9-3b6a-422c-a8c9-7b5c4fa5da08">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0573897b-1b77-4afb-9e84-1b58699d44a3">
             <TableID>Dimension_DimProductSubcategory</TableID>
             <ColumnID>ProductSubcategoryKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e0a70e4c-1f22-4162-82e8-f77e4931afb2">
+        <AttributeRelationship dwd:design-time-name="9ecaf9c0-a224-4496-847e-9026f4c06fc5">
           <AttributeID>Product Subcategory Alternate Key</AttributeID>
           <Name>Product Subcategory Alternate Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="df1ca4d6-b167-4cb1-ac29-6e6572456278">
+        <AttributeRelationship dwd:design-time-name="019c92f5-346e-467e-9a8d-14dad94ffb1b">
           <AttributeID>English Product Subcategory Name</AttributeID>
           <Name>English Product Subcategory Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="909a4ef1-7b7d-473e-9f0b-a85f43b19d32">
+        <AttributeRelationship dwd:design-time-name="6aa198b7-30dd-4049-8db0-7885575a4e31">
           <AttributeID>Spanish Product Subcategory Name</AttributeID>
           <Name>Spanish Product Subcategory Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a07c2bce-9a3a-434f-b7c2-b6561ce821db">
+        <AttributeRelationship dwd:design-time-name="542eb5a6-f0a3-43fa-888f-505c1679a913">
           <AttributeID>French Product Subcategory Name</AttributeID>
           <Name>French Product Subcategory Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="de9c7efc-22a0-48b9-a2a0-22c7765b848d">
+        <AttributeRelationship dwd:design-time-name="b1ab85aa-e3be-443f-8445-073baa09cb3d">
           <AttributeID>Product Category Key</AttributeID>
           <Name>Product Category Key</Name>
         </AttributeRelationship>
@@ -93,13 +94,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7a1f94f0-ae8a-4a4e-b0b0-6b080b43a033">
+    <Attribute dwd:design-time-name="ef980de5-0061-4ac3-8894-01a41e4f0c33">
       <ID>Product Subcategory Alternate Key</ID>
       <Name>Product Subcategory Alternate Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="11d0c763-acbc-4dae-a73a-1ee3f8a8e6ad">
+        <KeyColumn dwd:design-time-name="257c25ee-a9fd-4285-8267-23fa54e2c05b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d50d4fb6-2907-49c5-931f-766e902041ac">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a53e2715-3262-4fcb-951e-5cc735703137">
             <TableID>Dimension_DimProductSubcategory</TableID>
             <ColumnID>ProductSubcategoryAlternateKey</ColumnID>
           </Source>
@@ -109,14 +110,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2326b9f0-6344-4caa-90cf-99d557c460e2">
+    <Attribute dwd:design-time-name="95880e46-b7ea-4cc8-9eec-a175aa4a276f">
       <ID>English Product Subcategory Name</ID>
       <Name>English Product Subcategory Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5535a15b-47bd-472d-9fe2-b4330b4a5f58">
+        <KeyColumn dwd:design-time-name="119a1633-9e68-49ab-ad53-d5bbcd08946b">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="81d234b9-a3b1-4325-8235-cf9875a3a727">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2caa34b9-27b7-4b95-b340-5e896f9b6d54">
             <TableID>Dimension_DimProductSubcategory</TableID>
             <ColumnID>EnglishProductSubcategoryName</ColumnID>
           </Source>
@@ -126,14 +127,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1dddd17f-ed36-411f-bf6a-65068d493884">
+    <Attribute dwd:design-time-name="93f70a69-ccd7-49de-a16f-948b59c1744a">
       <ID>Spanish Product Subcategory Name</ID>
       <Name>Spanish Product Subcategory Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fa0a4a8d-b6b5-4c7d-bde2-436453d4106c">
+        <KeyColumn dwd:design-time-name="059d8d4e-37c6-4654-81a3-0d6c81cba457">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="19d02b55-a23c-452b-bf5f-37308a13129a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7021c7b4-ed97-438c-8ce1-f07a93685a98">
             <TableID>Dimension_DimProductSubcategory</TableID>
             <ColumnID>SpanishProductSubcategoryName</ColumnID>
           </Source>
@@ -143,14 +144,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4647df04-883e-42ef-ac43-91c963abc22b">
+    <Attribute dwd:design-time-name="a603223e-dca6-4b80-b5d3-738260001f30">
       <ID>French Product Subcategory Name</ID>
       <Name>French Product Subcategory Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3bd930e5-d4c7-4903-af14-41b0202c0ac1">
+        <KeyColumn dwd:design-time-name="a01096bc-a6d1-49db-b029-17144dddd32f">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc33476b-7c82-4232-bb67-a5678843e07e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00858b53-cb2b-4dc2-a5ba-89ce18b0bc36">
             <TableID>Dimension_DimProductSubcategory</TableID>
             <ColumnID>FrenchProductSubcategoryName</ColumnID>
           </Source>
@@ -160,33 +161,34 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7ad45d9e-92f3-4108-a4a3-8f2f1a27ea5f">
+    <Attribute dwd:design-time-name="1c9c4b0d-7f73-4b96-bff7-7e102a6772b8">
       <ID>Product Category Key</ID>
       <Name>Product Category Key</Name>
+      <Type>ProductCategory</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="32857b19-00c1-475b-84b1-214e3f4fe4f6">
+        <KeyColumn dwd:design-time-name="7d2d500c-a965-4d37-814d-76dc0911581f">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="36d1fe16-0726-447f-9fe8-8ced5c28741c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aec9cdff-efea-4b80-8f0c-f705f968fe70">
             <TableID>Dimension_DimProductCategory</TableID>
             <ColumnID>ProductCategoryKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="02f8ecb3-153e-4698-9761-c39df43aa652">
+        <AttributeRelationship dwd:design-time-name="b7ea17e1-d614-4071-bd71-2e76bd56659d">
           <AttributeID>Product Category Alternate Key</AttributeID>
           <Name>Product Category Alternate Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7e0d2acc-6a41-44c3-9f77-7ea11691c4ff">
+        <AttributeRelationship dwd:design-time-name="81d2cb39-ec43-4fc3-8e46-20dd0eabc16e">
           <AttributeID>English Product Category Name</AttributeID>
           <Name>English Product Category Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="88c09f43-2046-4e72-bf6d-e11a7157313b">
+        <AttributeRelationship dwd:design-time-name="5fc56297-2a67-494b-bf27-cfd6102c8c71">
           <AttributeID>Spanish Product Category Name</AttributeID>
           <Name>Spanish Product Category Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7d8c9fdc-5426-4649-9499-913df90f47c5">
+        <AttributeRelationship dwd:design-time-name="f39e391b-932d-4ae8-bd5d-dc10cd6a35d6">
           <AttributeID>French Product Category Name</AttributeID>
           <Name>French Product Category Name</Name>
         </AttributeRelationship>
@@ -195,13 +197,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="75316200-67e1-494d-b690-e7100a428b90">
+    <Attribute dwd:design-time-name="087f10b7-0c99-4f4f-8996-de2734bec40d">
       <ID>Product Category Alternate Key</ID>
       <Name>Product Category Alternate Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3f4dd22c-1fb4-456d-bceb-531555c24aa7">
+        <KeyColumn dwd:design-time-name="4255e357-649f-434b-8dbd-bd9ba34ad837">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f22f0855-7e21-4b4f-abe2-880bfb8c446c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c95933a-9d1c-4736-ab5a-d20713a8b08d">
             <TableID>Dimension_DimProductCategory</TableID>
             <ColumnID>ProductCategoryAlternateKey</ColumnID>
           </Source>
@@ -211,14 +213,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="87cb259f-94b0-4931-b18d-23c67d820579">
+    <Attribute dwd:design-time-name="451850ae-a291-4ef6-ba0c-ec43a35b434f">
       <ID>English Product Category Name</ID>
       <Name>English Product Category Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6cabf815-3c71-40ba-979a-5bf2b2660a7c">
+        <KeyColumn dwd:design-time-name="bbe454d0-8c6d-4275-b975-568fced478c7">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="723d41d8-718b-471d-a397-802b9dfbb5ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc69067b-2214-4b71-a2c4-195430b23f29">
             <TableID>Dimension_DimProductCategory</TableID>
             <ColumnID>EnglishProductCategoryName</ColumnID>
           </Source>
@@ -228,14 +230,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b93ae037-31c1-4e36-a416-d82f33bedbc7">
+    <Attribute dwd:design-time-name="48a6dd8f-266e-4e53-af70-620e3f46be44">
       <ID>Spanish Product Category Name</ID>
       <Name>Spanish Product Category Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0c7b3ae8-48e3-4638-b19a-249402979333">
+        <KeyColumn dwd:design-time-name="a8f3ce51-cd25-410c-8651-e5a8959b93d3">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d526b2d0-31fc-447f-b870-9e9fb1cb54a0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="408787b1-9821-469b-b8e0-0fb4606a3087">
             <TableID>Dimension_DimProductCategory</TableID>
             <ColumnID>SpanishProductCategoryName</ColumnID>
           </Source>
@@ -245,14 +247,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0edc819f-c8cc-4f6c-9529-82a49491acd4">
+    <Attribute dwd:design-time-name="fdb8b441-4cee-404f-b323-cb74a03ca06b">
       <ID>French Product Category Name</ID>
       <Name>French Product Category Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="cf9fdacb-7356-46d1-82b9-3e35a89918d8">
+        <KeyColumn dwd:design-time-name="4f263598-453c-4d16-82f6-db8840214196">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ead6763-d914-4508-9b0c-3d922ae3c46d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0854ca57-c52c-4d0e-ac10-04e50095f08a">
             <TableID>Dimension_DimProductCategory</TableID>
             <ColumnID>FrenchProductCategoryName</ColumnID>
           </Source>
